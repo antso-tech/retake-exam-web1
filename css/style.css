@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 80vh;
+    box-shadow: 5px 5px;
+}
+
+input {
+    height: 5vh;
+}
