@@ -14,4 +14,6 @@ form{
 
 input {
     height: 5vh;
+    margin: 10px;
+    border-radius: 10px;
 }
