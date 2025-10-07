@@ -27,16 +27,36 @@ form{
     margin: 15px;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: white;
+    font-size: 16px;
+    padding-left: 20px;
     
 }
 
 input {
     margin-left: 14px;
-    margin-block: 7px;
+    margin-block: 10px;
     width: 30vw;
     font-size: 16px;
     border: none;
     outline: none;
 }
 
+option{
+    padding-left : 10px;
+}
+
+.confirm-or-not{
+    gap: 10px
+}
+
+.confirm-or-not button {
+    width: 10vw;
+    height: 5vh;
+    background-color: rgb(165, 165, 165);
+    border: none;
+    font-size: 14px;
+    margin: 10px;
+
+}
 
