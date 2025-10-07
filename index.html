@@ -13,7 +13,7 @@
         <input type="text" placeholder="Nom de la dépense..." id="expense-title">
         </div>
         <div class="input">
-        <input type="text" placeholder="Montant de la depense" id="expense-price">
+        <input type="number" placeholder="Montant de la depense" id="expense-price" min="0">
         </div>
 
         <select name="" id="select-category">
@@ -22,10 +22,22 @@
             <option value="">Materiel</option>
         </select>
         <div class="confirm-or-not">
-            <button id="valid">Valider</button>
-            <button id="cancel">Annuler</button>
+            <input type="submit" value="valider">
+            <input type="submit" value="annuler">
         </div>
     </form>
-    <div class="allExpense"></div>
+    <div id="allExpense">
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Montant</th>
+                <th>Categorie</th>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
