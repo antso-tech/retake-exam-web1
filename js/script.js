@@ -27,9 +27,13 @@ selectCategory.addEventListener("input",(e) => {
 form.addEventListener('submit',(e) => {
     e.preventDefault();
 
-    document.getElementById('allExpense').innerHTML(`
-        
-        `)
+    document.getElementById('allExpense').innerHTML = `
+            <tr>
+                <tbody>1</tbody>
+                <tbody>3</tbody>
+                <tbody>2</tbody>
+            </tr>
+        `
     console.log('text');
     
 

@@ -60,6 +60,14 @@ option{
 }
 
 #allExpense {
-     margin-left: 5px;
+    padding-left: 10%;
+}
+tr{
+    border: 1px solid black;
+    background-color: gray;
+}
+th{
+    padding-inline: 3vw;
+
 }
 
