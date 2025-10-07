@@ -29,9 +29,9 @@ form.addEventListener('submit',(e) => {
 
     document.getElementById('allExpense').innerHTML = `
             <tr>
-                <tbody>1</tbody>
-                <tbody>3</tbody>
-                <tbody>2</tbody>
+                <tbody>${title}</tbody>
+                <tbody>${price}</tbody>
+                <tbody>${category}</tbody>
             </tr>
         `
     console.log('text');
