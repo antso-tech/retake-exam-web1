@@ -6,8 +6,7 @@
 
 body{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
 }
 
 form{
@@ -58,5 +57,9 @@ option{
     font-size: 14px;
     margin: 10px;
 
+}
+
+#allExpense {
+     margin-left: 5px;
 }
 
